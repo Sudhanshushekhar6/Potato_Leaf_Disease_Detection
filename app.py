@@ -13,7 +13,7 @@ st.sidebar.title("Plant Disease system for Sustainable Agriculture")
 app_mode = st.sidebar.selectbox('select page',['Home','Disease Recognition'])
 
 from PIL import Image
-img= Image.open('fpls-13-899754-g009.jpg')
+img= Image.open('image1.jpg')
 st.image(img)
 
 if(app_mode=='HOME'):

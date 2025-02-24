@@ -1,3 +1,2 @@
 #!/bin/bash
-pip install tflite-runtime
-
+pip install tensorflow-cpu==2.15.0
